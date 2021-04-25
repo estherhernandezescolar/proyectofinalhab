@@ -1,0 +1,23 @@
+.section.coworking {
+  padding: 2em;
+  background-image: url(../images/fondocoronas.png);
+}
+
+.introfotos {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.applyphoto {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  font-size: large;
+  font-weight: bolder;
+  background-color: #d7bc52;
+  font-size: 1.3em;
+  padding: 1%;
+  border-radius: 20px;
+  color: white;
+  width: 10em;
+  height: 3em;
+}

@@ -1,0 +1,19 @@
+.byeCoworking {
+  height: 82vh;
+  background-image: url(../images/fondocoronas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deleteBorrarCoworking {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  font-size: large;
+  font-weight: bolder;
+  background-color: #d7bc52;
+  font-size: 1.3em;
+  padding: 1%;
+  border-radius: 20px;
+  color: white;
+  width: 10em;
+}

@@ -1,0 +1,80 @@
+.createRating {
+  padding: 1rem;
+  background-image: url(../images/CreateCoworking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 83vh;
+}
+
+.createRating:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(15, 15, 15, 0.288);
+  margin-top: 4.7rem;
+  height: 81.25rem;
+}
+
+.createRating h1 {
+  margin-bottom: 2rem;
+  z-index: 1;
+  position: relative;
+  color: white;
+}
+
+.createRating form {
+  width: 20rem;
+  position: relative;
+}
+
+.createRating form fieldset {
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid white;
+  z-index: 1;
+}
+
+.createRating form label {
+  display: block;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.createRating form input,
+.createRating form select {
+  width: 100%;
+  padding: 0.25rem;
+  margin-bottom: 0.25rem;
+  border: white;
+}
+
+button.darrating {
+  width: 20vw;
+  height: 8vh;
+  border-radius: 30px;
+  margin-top: 2vw;
+  margin-left: 1vw;
+  border: 2px solid #fff;
+  outline: none;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+button.darrating:hover {
+  background-color: rgb(215, 187, 81, 0.3);
+  filter: drop-shadow(2px 2px 5px gold);
+  color: black;
+  font-weight: bolder;
+}

@@ -1,0 +1,55 @@
+.users {
+  display: flex;
+  flex-direction: row;
+  height: 48.75em;
+}
+
+.datos-usuario {
+  background-image: url(../images/fondocoronas.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 87.5em;
+  padding-bottom: 5%;
+}
+
+.datos-usuario h2 {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  font-size: 24px;
+}
+
+.datos-usuario span {
+  margin-left: 5%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.datos-usuario img {
+  width: 150px;
+  border: 1px solid #aaa;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.botones-ver1 {
+  width: 31.25em;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  align-items: flex-start;
+  background-color: #d7bc52;
+  font-size: 20px;
+}
+
+.botones-ver1 a {
+  color: black;
+}
+
+.botones-ver1 a:hover {
+  color: white;
+}
+.navVerUser {
+  text-decoration: none;
+}

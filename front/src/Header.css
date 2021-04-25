@@ -1,0 +1,143 @@
+/* .headerContainer {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  max-width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 1;
+} */
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.1875em 0.9375em;
+  height: 4.375em;
+  box-sizing: border-box;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+  padding: 0.3125em;
+}
+
+.userMenu {
+  margin-left: 1rem;
+}
+
+.linksContainer a {
+  margin-left: 1rem;
+}
+
+.btn-2 {
+  letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  letter-spacing: 0.3125em;
+}
+
+.btn-2:after,
+.btn-2:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+.links {
+  color: black;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #d7bc52;
+  transform: scale(1.2);
+  filter: drop-shadow(2px 2px 2px #d7bc52);
+}
+
+.logoprincipal {
+  max-width: 10vw;
+  box-sizing: border-box;
+  transform-style: unset;
+  z-index: 1;
+}
+
+header .logo {
+  text-decoration: none;
+  cursor: pointer;
+  width: 10rem;
+}
+
+/* header .usuario {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+} */
+
+header .avatar {
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+}
+
+div.userMenu {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 414px) {
+  .headerContainer {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .linksContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.3125em;
+    width: 70%;
+    font-size: 10px;
+  }
+
+
+
+  .headerContainer .logo {
+    width: 5rem;
+  }
+
+  .userMenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

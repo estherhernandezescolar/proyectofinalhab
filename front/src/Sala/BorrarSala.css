@@ -1,0 +1,12 @@
+.erase {
+  height: 82vh;
+  padding: 2rem;
+}
+
+.deleteSalaButton {
+  font-size: large;
+  font-weight: bold;
+}
+
+.deleteSalaButton:hover {
+}

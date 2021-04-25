@@ -1,0 +1,134 @@
+.registerpage {
+  background-color: rgb(215, 187, 81);
+  height: 82vh;
+}
+
+h2.tituloregistro {
+  margin-left: 2rem;
+  padding-top: 2rem;
+}
+
+.register.form {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  border: 1px solid rgb(215, 187, 81);
+  box-shadow: 2px 2px 5px rgb(215, 187, 81);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  width: 55em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input.idatos {
+  font-size: larger;
+  border-radius: 6px;
+  padding: 0.2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-color: white;
+}
+
+input.iotros {
+  font-size: larger;
+  border-radius: 6px;
+  padding: 0.2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-color: white;
+}
+
+input.ifoto {
+  font-size: larger;
+  border-radius: 6px;
+  padding: 0.2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-color: white;
+}
+
+.crownbutton {
+  border-radius: 20px;
+  border: 1px solid rgb(215, 187, 81);
+  font-size: large;
+  width: 15vw;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.crownbutton:hover {
+  background-color: rgba(165, 159, 139, 0.3);
+  filter: drop-shadow(2px 2px 5px gold);
+  color: black;
+}
+
+input.ipropono {
+  width: 40rem;
+  font-size: larger;
+  border-radius: 6px;
+  padding: 0.2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-color: white;
+}
+
+@media screen and (max-width: 414px) {
+  .registerpage {
+    background-color: rgb(215, 187, 81);
+    height: 86vh;
+  }
+  .register.form {
+    padding: 0.1em;
+    padding-bottom: 0.5em;
+    margin: 1em;
+    border-radius: 20px;
+    border: 1px solid rgb(215, 187, 81);
+    box-shadow: 2px 2px 5px rgb(215, 187, 81);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 90vw;
+    height: 75vh;
+    text-align: center;
+    margin: auto;
+  }
+  .crownbutton {
+    border-radius: 20px;
+    border: 1px solid rgb(215, 187, 81);
+    font-size: large;
+    width: 25vw;
+    height: 3em;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 0.5em;
+  }
+  input.ipropono {
+    width: 13em;
+    height: 2em;
+    font-size: larger;
+    border-radius: 6px;
+    padding: 0.2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-color: white;
+  }
+  h2.tituloregistro {
+    margin-left: 2rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  input.ipropono::placeholder {
+    font-size: x-small;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0.2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-color: white;
+  }
+}
